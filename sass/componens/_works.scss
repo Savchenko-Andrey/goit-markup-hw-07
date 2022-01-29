@@ -1,0 +1,17 @@
+.works-ithem {
+  display: flex;
+  justify-content: center;
+}
+
+.photo-works {
+  margin-left: 30px;
+  position: relative;
+}
+
+.photo-works:hover {
+  border: solid var(--button-color);
+}
+
+.photo-works:first-child {
+  margin-left: 0;
+}

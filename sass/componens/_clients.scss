@@ -1,0 +1,99 @@
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: #2196f3;
+}
+
+.team-social-link:hover .team-social-icon,
+.team-social-link:focus .team-social-icon {
+  fill: #ffffff;
+}
+
+.team-social-link {
+  fill: #afb1b8;
+}
+
+.container-social-team {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.conteiner-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.conteiner-social-item + .conteiner-social-item {
+  margin-left: 30px;
+}
+
+.conteiner-social-link {
+  width: 170px;
+  height: 92px;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  color: #afb1b8;
+  fill: #afb1b8;
+  border: 1px solid #afb1b8;
+  fill: currentColor;
+}
+
+.conteiner-social-icon:hover,
+.conteiner-social-icon:focus {
+  fill: #2196f3;
+}
+
+.conteiner-social-icon {
+  fill: #afb1b8;
+  color: currentColor;
+}
+
+.conteiner-social-link:hover,
+.conteiner-social-link:focus {
+  border: 1px solid #2196f3;
+  fill: #2196f3;
+}
+
+.conteiner-section-icons {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+  border: 2px solid tomato;
+  width: 170px;
+  height: 92px;
+  background-color: #f5f4fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+  margin-bottom: 30px;
+}
+
+.conteiner-section-icons + .conteiner-section-icons {
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4%;
+}

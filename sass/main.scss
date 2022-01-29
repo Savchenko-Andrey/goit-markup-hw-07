@@ -1,0 +1,28 @@
+@import "./utils/variables";
+@import "./base/reset";
+@import "./base/common";
+@import "./utils/hidden";
+
+//COMPONENTS
+
+@import "./componens/container";
+@import "./componens/section";
+@import "./componens/title";
+@import "./componens/btn";
+@import "./componens/section-text";
+@import "./componens/works";
+@import "./componens/our-team";
+@import "./componens/clients";
+
+@import "./componens/btn";
+@import "./componens/footer";
+
+@import "./layout/header";
+@import "./layout/hero";
+
+//портфолио
+
+@import "./componens/portfolio-page";
+
+//модальные окна
+@import "./componens/_modal.sccs";

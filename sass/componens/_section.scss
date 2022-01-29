@@ -1,0 +1,29 @@
+.section {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 94px;
+}
+
+address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.link {
+  text-decoration: none;
+  color: var(--prymary-text-color);
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.text {
+  font-family: Roboto;
+  font-size: 14px;
+}

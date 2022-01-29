@@ -1,0 +1,95 @@
+.ithem-progects {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+  letter-spacing: 0.06em;
+  margin-bottom: 10px;
+}
+
+.text-progects {
+  font-size: 16px;
+  line-height: 1.87;
+  color: #757575;
+  letter-spacing: var(--letter-spacing);
+}
+
+.list-progects {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-bottom: 20px;
+  cursor: pointer;
+}
+
+.list-progects:hover,
+.list-progects:focus {
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+.list-progects-text {
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+}
+
+.list-progects:nth-child(3n + 1) {
+  margin-left: 0;
+}
+
+.conteiner-progects {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.type-progects {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-progects:hover .section-img-text {
+  transform: translateY(0%);
+}
+
+.section-item-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.section-img-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(33, 150, 243, 0.9);
+  color: rgba(255, 255, 255, 1);
+  line-height: 1.5;
+  padding-left: 24px;
+  padding-top: 63px;
+  padding-right: 24px;
+  padding-bottom: 63px;
+  height: 100%;
+  transform: translateY(100%);
+  transition: transform 300ms linear;
+}

@@ -1,0 +1,103 @@
+.ithem-adress {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.logo-ihtems {
+  margin-bottom: 20px;
+}
+
+.logo-footer {
+  font-family: Raleway;
+  color: #2196f3;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-studio-footer {
+  font-family: Raleway;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+}
+
+.address-text > address {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.fotter {
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.list-adress {
+  margin-top: 9px;
+}
+
+.adress {
+  margin-top: 20px;
+}
+
+.footer-center {
+  margin-left: 70px;
+}
+
+.icons-footer + .icons-footer {
+  margin-left: 10px;
+}
+
+.list-footer {
+  display: flex;
+  flex-direction: row;
+}
+
+.footer-backgraund {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-ihtems {
+  margin-bottom: 20px;
+}
+
+.head-list {
+  color: #212121;
+  margin-bottom: 10px;
+  font-weight: bold;
+  line-height: 16px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.join {
+  color: #ffffff;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  letter-spacing: var(--letter-spacing);
+}
+
+.join-link {
+  background: rgba(255, 255, 255, 0.1);
+  fill: #fff;
+  display: inline-flex;
+}
+
+.social-team-icon {
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  object-position: center;
+}
