@@ -1,3 +1,38 @@
+.heading-conteiner {
+  padding-top: 94px;
+  font-size: 36px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 50px;
+  line-height: 1.16;
+  color: var(--prymary-text-color);
+  letter-spacing: var(--letter-spacing);
+}
+
+.works__ithem {
+  display: flex;
+  justify-content: center;
+}
+
+.works__photo {
+  margin-left: 30px;
+  position: relative;
+}
+
+.works__photo:first-child {
+  margin-left: 0;
+}
+
+.about__heading {
+  font-size: 36px;
+  margin-top: 0%;
+  margin-bottom: 0%;
+  padding-bottom: 50px;
+  line-height: 1.16;
+  color: var(--prymary-text-color);
+  letter-spacing: var(--letter-spacing);
+}
+
 .team-social-list {
   display: flex;
   justify-content: center;

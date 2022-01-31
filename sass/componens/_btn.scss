@@ -7,3 +7,24 @@
 .buttons-num {
   margin-right: 8px;
 }
+
+.button-ithem:hover,
+.button-ithem:focus {
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  color: #f5f4fa;
+  padding: 6px 22px;
+  border: none;
+}
+.button-ithem {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  color: #212121;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 6px 22px;
+  border: none;
+}

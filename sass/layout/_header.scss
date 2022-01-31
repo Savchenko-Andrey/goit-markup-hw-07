@@ -5,7 +5,7 @@ header {
   border: 1px solid #ececec;
 }
 
-.header-page {
+.header {
   padding-right: 25px;
 }
 
@@ -28,7 +28,7 @@ header {
   letter-spacing: 0.03em;
 }
 
-.nav-item {
+.header__item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -37,11 +37,11 @@ header {
   margin-right: 50px;
 }
 
-.nav-item-list {
+.header__item--list {
   margin-left: 93px;
 }
 
-.nav-adress-ithem {
+.header__adress {
   font-weight: 500;
   color: #757575;
   font-size: 14px;
@@ -50,57 +50,61 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
+  &:first-child {
+    margin-right: 50px;
+    margin-left: auto;
+  }
 }
 
-.nav-adress-ithem:first-child {
-  margin-right: 50px;
-  margin-left: auto;
-}
+// .nav-adress-ithem:first-child {
+//   margin-right: 50px;
+//   margin-left: auto;
+// }
 
 .current {
   color: var(--title-text-color);
 }
 
-.nav-list {
+.header__list {
   display: flex;
 }
 
-.conteiner-nav {
+.header__conteiner {
   display: flex;
 }
 
-.adress-conteiner {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  margin-right: 25px;
-  /* border: 2px solid navy; */
-}
+// .adress-conteiner {
+//   display: flex;
+//   align-items: center;
+//   margin-left: auto;
+//   margin-right: 25px;
+//   /* border: 2px solid navy; */
+// }
 
-.color-link {
+.adress__color--link {
   color: var(--ithem-text-color);
   display: flex;
   align-items: center;
 }
 
-.class-contacs {
+.header__contacs {
   display: flex;
   text-align: center;
   margin-left: auto;
 }
 
-.page-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-.icon-mail {
+.adress__icon--mail {
   align-items: flex-start;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.icon-phone {
+.adress__icon--phone {
   justify-self: start;
   margin-right: 10px;
   cursor: pointer;
