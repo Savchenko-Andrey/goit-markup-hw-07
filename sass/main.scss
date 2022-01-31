@@ -7,22 +7,24 @@
 
 @import "./componens/container";
 @import "./componens/section";
-@import "./componens/title";
+@import "./layout/about";
 @import "./componens/btn";
 @import "./componens/section-text";
-@import "./componens/works";
-@import "./componens/our-team";
-@import "./componens/clients";
+@import "./layout/works";
+@import "./layout/our-team";
+@import "./layout/clients";
+@import "./componens/logo";
+@import "./componens/text";
 
 @import "./componens/btn";
-@import "./componens/footer";
+@import "./layout/footer";
 
 @import "./layout/header";
 @import "./layout/hero";
 
 //портфолио
 
-@import "./componens/portfolio-page";
+@import "./layout/portfolio-page";
 
 //модальные окна
-@import "./componens/_modal.sccs";
+@import "./componens/modal";
