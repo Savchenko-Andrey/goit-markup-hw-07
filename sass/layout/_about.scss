@@ -1,5 +1,5 @@
 .about {
-  padding-top: 94px;
+  padding: 94px;
 }
 
 .about__list {
@@ -20,35 +20,13 @@
   }
 }
 
-.about__icons {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin: auto;
+.about__icon {
+  display: flex;
+  background-color: #f5f4fa;
   width: 270px;
   height: 120px;
-  background-color: #f5f4fa;
-  display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 4%;
   margin-bottom: 30px;
-}
-
-.about__list-header {
-  color: #212121;
-  margin-bottom: 10px;
-  font-weight: bold;
-  line-height: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
-  letter-spacing: var(--letter-spacing);
-}
-
-.about__text {
-  margin-top: 0;
-  margin-bottom: 16px;
-  color: #757575;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: var(--letter-spacing);
+  border-radius: 4px;
 }
