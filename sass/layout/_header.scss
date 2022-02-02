@@ -9,6 +9,10 @@
     display: flex;
   }
 
+  .adress {
+    display: contents;
+  }
+
   .header__adress {
     display: flex;
     justify-content: center;
@@ -62,7 +66,7 @@
   color: var(--title-text-color);
 
   &::after {
-    content: '';
+    content: "";
     display: inline-block;
     position: absolute;
     bottom: -33px;
